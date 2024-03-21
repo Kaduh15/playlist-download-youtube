@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "fastify": "^4.26.2",
+    "ytdl-core": "^4.11.5",
     "zod": "^3.22.4"
   }
 }
