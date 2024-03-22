@@ -2,12 +2,14 @@
   "name": "playlist-download-youtube",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/server.js",
+  "main": "./dist/server.js",
   "type": "module",
   "engines": {
     "node": ">=^20"
   },
   "scripts": {
+    "start": "node .",
+    "build": "tsc ",
     "dev": "tsx watch src/server.ts",
     "lint": "eslint --ext .ts src/ --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
