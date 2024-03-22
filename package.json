@@ -4,6 +4,9 @@
   "description": "",
   "main": "./src/server.js",
   "type": "module",
+  "engines": {
+    "node": ">=^20"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint --ext .ts src/ --fix",
